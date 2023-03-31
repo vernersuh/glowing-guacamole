@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    background-color: #e23434;
+    text-align: center;
+}
+
+article{
+    background-image: url()
+}
+
+article>ul>li{
+    list-style: decimal;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: bottom;
+    border: 10px yellow solid;
+    border-left: 100px yellow solid;
+    border-right: 100px yellow solid;
+}
+
+article{
+    background-color: #e23434;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+article>h3{
+    font-weight: bolder;
+    text-decoration: underline 1px;
+}
+
+article>h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+article>ul>li{
+    font-weight: bold;
+    line-height: 25px;
+}
